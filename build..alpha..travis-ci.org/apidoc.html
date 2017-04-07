@@ -1,0 +1,948 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/moroshko/react-autosuggest#readme"
+
+    >react-autosuggest (v9.0.0)</a>
+</h1>
+<h4>WAI-ARIA compliant React autosuggest component</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-autosuggest">module react-autosuggest</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.alwaysRenderSuggestions">
+            function <span class="apidocSignatureSpan">react-autosuggest.</span>propTypes.alwaysRenderSuggestions
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.id">
+            function <span class="apidocSignatureSpan">react-autosuggest.</span>propTypes.id
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.onSuggestionSelected">
+            function <span class="apidocSignatureSpan">react-autosuggest.</span>propTypes.onSuggestionSelected
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.theme">
+            function <span class="apidocSignatureSpan">react-autosuggest.</span>propTypes.theme
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-autosuggest.</span>defaultProps</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-autosuggest.</span>propTypes</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-autosuggest.defaultProps">module react-autosuggest.defaultProps</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">react-autosuggest.defaultProps.</span>alwaysRenderSuggestions</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">react-autosuggest.defaultProps.</span>focusInputOnSuggestionClick</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">react-autosuggest.defaultProps.</span>highlightFirstSuggestion</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">react-autosuggest.defaultProps.</span>multiSection</span>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.defaultProps.renderSuggestionsContainer">
+            function <span class="apidocSignatureSpan">react-autosuggest.defaultProps.</span>renderSuggestionsContainer
+            <span class="apidocSignatureSpan">(_ref)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.defaultProps.shouldRenderSuggestions">
+            function <span class="apidocSignatureSpan">react-autosuggest.defaultProps.</span>shouldRenderSuggestions
+            <span class="apidocSignatureSpan">(value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-autosuggest.defaultProps.</span>theme</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">react-autosuggest.defaultProps.</span>id</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-autosuggest.propTypes">module react-autosuggest.propTypes</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.alwaysRenderSuggestions">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>alwaysRenderSuggestions
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.focusInputOnSuggestionClick">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>focusInputOnSuggestionClick
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.getSectionSuggestions">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>getSectionSuggestions
+            <span class="apidocSignatureSpan">(props, propName)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.getSuggestionValue">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>getSuggestionValue
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.highlightFirstSuggestion">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>highlightFirstSuggestion
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.id">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>id
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.inputProps">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>inputProps
+            <span class="apidocSignatureSpan">(props, propName)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.multiSection">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>multiSection
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.onSuggestionSelected">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>onSuggestionSelected
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.onSuggestionsClearRequested">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>onSuggestionsClearRequested
+            <span class="apidocSignatureSpan">(props, propName)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.onSuggestionsFetchRequested">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>onSuggestionsFetchRequested
+            <span class="apidocSignatureSpan">(props, propName)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.renderInputComponent">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>renderInputComponent
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.renderSectionTitle">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>renderSectionTitle
+            <span class="apidocSignatureSpan">(props, propName)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.renderSuggestion">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>renderSuggestion
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.renderSuggestionsContainer">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>renderSuggestionsContainer
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.shouldRenderSuggestions">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>shouldRenderSuggestions
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.suggestions">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>suggestions
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.theme">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>theme
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-autosuggest.propTypes.alwaysRenderSuggestions">module react-autosuggest.propTypes.alwaysRenderSuggestions</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.alwaysRenderSuggestions.alwaysRenderSuggestions">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>alwaysRenderSuggestions
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.alwaysRenderSuggestions.isRequired">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.alwaysRenderSuggestions.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-autosuggest.propTypes.id">module react-autosuggest.propTypes.id</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.id.id">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>id
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.id.isRequired">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.id.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-autosuggest.propTypes.onSuggestionSelected">module react-autosuggest.propTypes.onSuggestionSelected</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.onSuggestionSelected.onSuggestionSelected">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>onSuggestionSelected
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.onSuggestionSelected.isRequired">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.onSuggestionSelected.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-autosuggest.propTypes.theme">module react-autosuggest.propTypes.theme</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.theme.theme">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>theme
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.theme.isRequired">
+            function <span class="apidocSignatureSpan">react-autosuggest.propTypes.theme.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-autosuggest" id="apidoc.module.react-autosuggest">module react-autosuggest</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.alwaysRenderSuggestions" id="apidoc.element.react-autosuggest.propTypes.alwaysRenderSuggestions">
+        function <span class="apidocSignatureSpan">react-autosuggest.</span>propTypes.alwaysRenderSuggestions
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.alwaysRenderSuggestions = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.id" id="apidoc.element.react-autosuggest.propTypes.id">
+        function <span class="apidocSignatureSpan">react-autosuggest.</span>propTypes.id
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.id = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.onSuggestionSelected" id="apidoc.element.react-autosuggest.propTypes.onSuggestionSelected">
+        function <span class="apidocSignatureSpan">react-autosuggest.</span>propTypes.onSuggestionSelected
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.onSuggestionSelected = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.theme" id="apidoc.element.react-autosuggest.propTypes.theme">
+        function <span class="apidocSignatureSpan">react-autosuggest.</span>propTypes.theme
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.theme = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-autosuggest.defaultProps" id="apidoc.module.react-autosuggest.defaultProps">module react-autosuggest.defaultProps</a></h1>
+
+
+
+
+
+
+
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.defaultProps.renderSuggestionsContainer" id="apidoc.element.react-autosuggest.defaultProps.renderSuggestionsContainer">
+        function <span class="apidocSignatureSpan">react-autosuggest.defaultProps.</span>renderSuggestionsContainer
+        <span class="apidocSignatureSpan">(_ref)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function defaultRenderSuggestionsContainer(_ref) {
+  var containerProps = _ref.containerProps,
+      children = _ref.children;
+  return _react2.default.createElement(
+    &#x27;div&#x27;,
+    containerProps,
+    children
+  );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.defaultProps.shouldRenderSuggestions" id="apidoc.element.react-autosuggest.defaultProps.shouldRenderSuggestions">
+        function <span class="apidocSignatureSpan">react-autosuggest.defaultProps.</span>shouldRenderSuggestions
+        <span class="apidocSignatureSpan">(value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function defaultShouldRenderSuggestions(value) {
+  return value.trim().length &#x3e; 0;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-autosuggest.propTypes" id="apidoc.module.react-autosuggest.propTypes">module react-autosuggest.propTypes</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.alwaysRenderSuggestions" id="apidoc.element.react-autosuggest.propTypes.alwaysRenderSuggestions">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>alwaysRenderSuggestions
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">alwaysRenderSuggestions = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.focusInputOnSuggestionClick" id="apidoc.element.react-autosuggest.propTypes.focusInputOnSuggestionClick">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>focusInputOnSuggestionClick
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">focusInputOnSuggestionClick = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.getSectionSuggestions" id="apidoc.element.react-autosuggest.propTypes.getSectionSuggestions">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>getSectionSuggestions
+        <span class="apidocSignatureSpan">(props, propName)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getSectionSuggestions(props, propName) {
+  var getSectionSuggestions = props[propName];
+
+  if (props.multiSection === true &#x26;&#x26; typeof getSectionSuggestions !== &#x27;function&#x27;) {
+    throw new Error(&#x27;\&#x27;getSectionSuggestions\&#x27; must be implemented. See: https://github.com/moroshko/react-autosuggest#getSectionSuggestionsProp
+&#x27;);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.getSuggestionValue" id="apidoc.element.react-autosuggest.propTypes.getSuggestionValue">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>getSuggestionValue
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getSuggestionValue = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.highlightFirstSuggestion" id="apidoc.element.react-autosuggest.propTypes.highlightFirstSuggestion">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>highlightFirstSuggestion
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">highlightFirstSuggestion = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.id" id="apidoc.element.react-autosuggest.propTypes.id">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>id
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">id = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.inputProps" id="apidoc.element.react-autosuggest.propTypes.inputProps">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>inputProps
+        <span class="apidocSignatureSpan">(props, propName)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function inputProps(props, propName) {
+  var inputProps = props[propName];
+
+  if (!inputProps.hasOwnProperty(&#x27;value&#x27;)) {
+    throw new Error(&#x27;\&#x27;inputProps\&#x27; must have \&#x27;value\&#x27;.&#x27;);
+  }
+
+  if (!inputProps.hasOwnProperty(&#x27;onChange&#x27;)) {
+    throw new Error(&#x27;\&#x27;inputProps\&#x27; must have \&#x27;onChange\&#x27;.&#x27;);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.multiSection" id="apidoc.element.react-autosuggest.propTypes.multiSection">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>multiSection
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">multiSection = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.onSuggestionSelected" id="apidoc.element.react-autosuggest.propTypes.onSuggestionSelected">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>onSuggestionSelected
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onSuggestionSelected = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.onSuggestionsClearRequested" id="apidoc.element.react-autosuggest.propTypes.onSuggestionsClearRequested">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>onSuggestionsClearRequested
+        <span class="apidocSignatureSpan">(props, propName)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function onSuggestionsClearRequested(props, propName) {
+  var onSuggestionsClearRequested = props[propName];
+
+  if (props.alwaysRenderSuggestions === false &#x26;&#x26; typeof onSuggestionsClearRequested !== &#x27;function&#x27;) {
+    throw new Error(&#x27;\&#x27;onSuggestionsClearRequested\&#x27; must be implemented. See: https://github.com/moroshko/react-autosuggest#onSuggestionsClearRequestedProp
+&#x27;);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.onSuggestionsFetchRequested" id="apidoc.element.react-autosuggest.propTypes.onSuggestionsFetchRequested">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>onSuggestionsFetchRequested
+        <span class="apidocSignatureSpan">(props, propName)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function onSuggestionsFetchRequested(props, propName) {
+  var onSuggestionsFetchRequested = props[propName];
+
+  if (typeof onSuggestionsFetchRequested !== &#x27;function&#x27;) {
+    throw new Error(&#x27;\&#x27;onSuggestionsFetchRequested\&#x27; must be implemented. See: https://github.com/moroshko/react-autosuggest#onSuggestionsFetchRequestedProp
+&#x27;);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.renderInputComponent" id="apidoc.element.react-autosuggest.propTypes.renderInputComponent">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>renderInputComponent
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">renderInputComponent = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.renderSectionTitle" id="apidoc.element.react-autosuggest.propTypes.renderSectionTitle">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>renderSectionTitle
+        <span class="apidocSignatureSpan">(props, propName)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function renderSectionTitle(props, propName) {
+  var renderSectionTitle = props[propName];
+
+  if (props.multiSection === true &#x26;&#x26; typeof renderSectionTitle !== &#x27;function&#x27;) {
+    throw new Error(&#x27;\&#x27;renderSectionTitle\&#x27; must be implemented. See: https://github.com/moroshko/react-autosuggest#renderSectionTitleProp
+&#x27;);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.renderSuggestion" id="apidoc.element.react-autosuggest.propTypes.renderSuggestion">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>renderSuggestion
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">renderSuggestion = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.renderSuggestionsContainer" id="apidoc.element.react-autosuggest.propTypes.renderSuggestionsContainer">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>renderSuggestionsContainer
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">renderSuggestionsContainer = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.shouldRenderSuggestions" id="apidoc.element.react-autosuggest.propTypes.shouldRenderSuggestions">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>shouldRenderSuggestions
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">shouldRenderSuggestions = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.suggestions" id="apidoc.element.react-autosuggest.propTypes.suggestions">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>suggestions
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">suggestions = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.theme" id="apidoc.element.react-autosuggest.propTypes.theme">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>theme
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">theme = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-autosuggest.propTypes.alwaysRenderSuggestions" id="apidoc.module.react-autosuggest.propTypes.alwaysRenderSuggestions">module react-autosuggest.propTypes.alwaysRenderSuggestions</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.alwaysRenderSuggestions.alwaysRenderSuggestions" id="apidoc.element.react-autosuggest.propTypes.alwaysRenderSuggestions.alwaysRenderSuggestions">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>alwaysRenderSuggestions
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">alwaysRenderSuggestions = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.alwaysRenderSuggestions.isRequired" id="apidoc.element.react-autosuggest.propTypes.alwaysRenderSuggestions.isRequired">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.alwaysRenderSuggestions.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-autosuggest.propTypes.id" id="apidoc.module.react-autosuggest.propTypes.id">module react-autosuggest.propTypes.id</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.id.id" id="apidoc.element.react-autosuggest.propTypes.id.id">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>id
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">id = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.id.isRequired" id="apidoc.element.react-autosuggest.propTypes.id.isRequired">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.id.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-autosuggest.propTypes.onSuggestionSelected" id="apidoc.module.react-autosuggest.propTypes.onSuggestionSelected">module react-autosuggest.propTypes.onSuggestionSelected</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.onSuggestionSelected.onSuggestionSelected" id="apidoc.element.react-autosuggest.propTypes.onSuggestionSelected.onSuggestionSelected">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>onSuggestionSelected
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">onSuggestionSelected = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.onSuggestionSelected.isRequired" id="apidoc.element.react-autosuggest.propTypes.onSuggestionSelected.isRequired">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.onSuggestionSelected.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-autosuggest.propTypes.theme" id="apidoc.module.react-autosuggest.propTypes.theme">module react-autosuggest.propTypes.theme</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.theme.theme" id="apidoc.element.react-autosuggest.propTypes.theme.theme">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.</span>theme
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">theme = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.propTypes.theme.isRequired" id="apidoc.element.react-autosuggest.propTypes.theme.isRequired">
+        function <span class="apidocSignatureSpan">react-autosuggest.propTypes.theme.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
