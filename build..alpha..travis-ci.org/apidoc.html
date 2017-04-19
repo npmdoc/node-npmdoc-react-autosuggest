@@ -63,6 +63,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.react-autosuggest">
+            function <span class="apidocSignatureSpan"></span>react-autosuggest
+            <span class="apidocSignatureSpan">(_ref2)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.react-autosuggest.propTypes.alwaysRenderSuggestions">
             function <span class="apidocSignatureSpan">react-autosuggest.</span>propTypes.alwaysRenderSuggestions
             <span class="apidocSignatureSpan">()</span>
@@ -427,6 +436,38 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.react-autosuggest" id="apidoc.module.react-autosuggest">module react-autosuggest</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-autosuggest.react-autosuggest" id="apidoc.element.react-autosuggest.react-autosuggest">
+        function <span class="apidocSignatureSpan"></span>react-autosuggest
+        <span class="apidocSignatureSpan">(_ref2)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Autosuggest(_ref2) {
+  var alwaysRenderSuggestions = _ref2.alwaysRenderSuggestions;
+
+  _classCallCheck(this, Autosuggest);
+
+  var _this = _possibleConstructorReturn(this, (Autosuggest.__proto__ || Object.getPrototypeOf(Autosuggest)).call(this));
+
+  _initialiseProps.call(_this);
+
+  _this.state = {
+    isFocused: false,
+    isCollapsed: !alwaysRenderSuggestions,
+    highlightedSectionIndex: null,
+    highlightedSuggestionIndex: null,
+    valueBeforeUpDown: null
+  };
+
+  _this.justPressedUpDown = false;
+  return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
